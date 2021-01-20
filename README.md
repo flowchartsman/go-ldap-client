@@ -1,7 +1,7 @@
 # go-ldap-client
 
-[![codecov.io](https://codecov.io/github/FidelityInternational/go-ldap-client/coverage.svg?branch=master)](https://codecov.io/github/FidelityInternational/go-ldap-client?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/FidelityInternational/go-ldap-client)](https://goreportcard.com/report/github.com/FidelityInternational/go-ldap-client) [![Build Status](https://travis-ci.org/FidelityInternational/go-ldap-client.svg?branch=master)](https://travis-ci.org/FidelityInternational/go-ldap-client)
+[![codecov.io](https://codecov.io/github/flowchartsman/go-ldap-client/coverage.svg?branch=master)](https://codecov.io/github/flowchartsman/go-ldap-client?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/flowchartsman/go-ldap-client)](https://goreportcard.com/report/github.com/flowchartsman/go-ldap-client) [![Build Status](https://travis-ci.org/flowchartsman/go-ldap-client.svg?branch=master)](https://travis-ci.org/flowchartsman/go-ldap-client)
 
 A simple [GoLang](https://golang.org) LDAP client for authenticating users. It is effectively a wrapper around [gopkg.in/ldap.v2](https://github.com/go-ldap/ldap) and aims at making LDAP easier to use.
 
@@ -9,7 +9,7 @@ At the moment the main aim is for making user authentication as easy as possible
 
 ### Usage
 
-[Go Doc](https://godoc.org/github.com/FidelityInternational/go-ldap-client)
+[Go Doc](https://godoc.org/github.com/flowchartsman/go-ldap-client)
 
 ### Example
 
@@ -19,7 +19,7 @@ package main
 import (
   "fmt"
   "os"
-  "github.com/FidelityInternational/go-ldap-client"
+  "github.com/flowchartsman/go-ldap-client"
 )
 
 func main() {

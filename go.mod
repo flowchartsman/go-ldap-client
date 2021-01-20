@@ -1,4 +1,4 @@
-module github.com/FidelityInternational/go-ldap-client
+module github.com/flowchartsman/go-ldap-client
 
 go 1.15
 
